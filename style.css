@@ -32,6 +32,7 @@ html {
   display: flex;
   justify-content: center;
   padding: 9.6rem;
+  background-color: #f9f9f9;
 }
 
 .hero-features {
@@ -58,10 +59,50 @@ html {
 .text-description {
   font-size: 1.8rem;
   color: #555;
+  margin-bottom: 0.2rem;
+  font-weight: 400;
+}
+
+.text-logos {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.logo {
+  height: 3.2rem;
+  width: 3.2rem;
 }
 
 .hero-photo {
   width: 34.8rem;
   height: 34.8rem;
   border-radius: 9999999px;
+}
+
+.about-features {
+  display: flex;
+  align-items: center;
+  gap: 6.4rem;
+  padding: 4.6rem 5.4rem 4.6rem 4.5rem;
+}
+
+.about-photo img {
+  border-radius: 9px;
+}
+
+.about-text h3,
+.about-text p {
+  font-size: 1.6rem;
+}
+
+.about-text h4 {
+  font-size: 2.4rem;
+}
+
+.about-text h3 {
+  color: #147efb;
+}
+.about-text p {
+  color: #888;
+  font-weight: 500;
 }
