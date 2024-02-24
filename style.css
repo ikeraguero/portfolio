@@ -7,15 +7,22 @@ html {
   font-size: 62.5%;
   font-family: "Poppins", sans-serif;
   color: #2d2e32;
+  z-index: 100;
+}
+
+.container {
+  padding: 4.6rem 8.4rem 4.6rem 8.4rem;
 }
 
 .nav {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   font-size: 1.8rem;
   padding: 3.8rem 4.2rem 3.8rem 4.2rem;
   font-weight: 600;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  z-index: 200;
 }
 
 .nav-name {
@@ -39,6 +46,19 @@ html {
   display: flex;
   gap: 20.6rem;
   flex: 0;
+}
+
+.text-logos a:link,
+.text-logos a:visited {
+  color: #2d2e32;
+  transition: 0.2s all;
+}
+
+.text-logos a:hover,
+.text-logos a:active {
+  color: #147efb;
+
+  transition: 0.2s all;
 }
 
 .text {
@@ -77,13 +97,13 @@ html {
   width: 34.8rem;
   height: 34.8rem;
   border-radius: 9999999px;
+  border: 2px #2d2e32 solid;
 }
 
 .about-features {
   display: flex;
   align-items: center;
   gap: 6.4rem;
-  padding: 4.6rem 5.4rem 4.6rem 4.5rem;
 }
 
 .about-photo img {
@@ -95,14 +115,55 @@ html {
   font-size: 1.6rem;
 }
 
-.about-text h4 {
+h4 {
   font-size: 2.4rem;
 }
 
-.about-text h3 {
+h3 {
   color: #147efb;
 }
+
 .about-text p {
   color: #888;
   font-weight: 500;
+}
+
+.contact-title h3 {
+  font-size: 1.6rem;
+}
+
+.icon-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-text:first-child {
+  font-weight: 800;
+}
+
+.icon-container,
+.contact-icons {
+  display: flex;
+  font-size: 1.6rem;
+}
+
+.contact-icons {
+  margin-top: 2.4rem;
+  gap: 5.4rem;
+}
+
+.icon-container {
+  gap: 2rem;
+  align-items: center;
+}
+
+.contact-icon-text {
+  font-weight: 700;
+}
+
+.contact-icons-color {
+  color: #147efb;
+  padding: 1.2rem;
+  border-radius: 99999px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
 }
