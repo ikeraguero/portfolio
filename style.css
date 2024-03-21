@@ -64,7 +64,7 @@ html {
 }
 
 .text-logos a:hover,
-.text-logos a:active {
+.text-logos a:active, .nav-list a:hover, .nav-list a:active {
   color: #147efb;
 
   transition: 0.2s all;
