@@ -11,6 +11,11 @@ html {
   scroll-behavior: smooth;
 }
 
+
+html, body {
+  overflow-x: hidden;
+}
+
 .container {
   padding: 9.6rem 8.4rem 9.6rem 8.4rem;
 }
