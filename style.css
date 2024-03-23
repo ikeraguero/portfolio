@@ -330,11 +330,14 @@ h3 {
 
 @media(max-width: 28em) {
   html {
-    font-size: 40%;
+    font-size: 50%;
+  }
+  .nav-list {
+    display: none;
   }
 }
 @media(max-width: 25em) {
-  .nav-list {
-    display: none;
+  .text-title {
+    font-size: 3.8rem;
   }
 }
