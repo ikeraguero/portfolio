@@ -289,3 +289,52 @@ h3 {
     font-size: 45%
   }
 }
+
+@media(max-width: 40em) {
+  .laptop-img {
+    width: 85%;
+  }
+}
+
+@media(max-width: 36em) {
+  .hero-features {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .photo {
+    grid-area: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .text-logos{
+    justify-content: center;
+    gap: 3.2rem;
+  }
+  .text{
+    text-align: center;
+  }
+  .hero-section {
+    padding: 9.6rem 9.6rem 2.4rem 9.6rem;
+  }
+  .container {
+    padding: 9.6rem 6.4rem 2.4rem 6.4rem;
+  }
+}
+
+@media(max-width: 31em) {
+  .contact-icons {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+}
+
+@media(max-width: 28em) {
+  html {
+    font-size: 40%;
+  }
+}
+@media(max-width: 25em) {
+  .nav-list {
+    display: none;
+  }
+}
