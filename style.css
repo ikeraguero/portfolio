@@ -397,11 +397,11 @@ h3 {
 }
 @media(max-width: 31em) {
   html {
-    font-size: 25%;
+    font-size: 20%;
   }
 }
 @media(max-width: 26em) {
   html {
-    font-size: 20%;
+    font-size: 25%;
   }
 }
