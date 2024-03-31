@@ -149,7 +149,7 @@ section:last-child {
 
 .about-text h3,
 .about-text p, .projects-text {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 h4 {
@@ -238,7 +238,7 @@ h3 {
 .project-description {
   color: #888;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   padding: 0 6.4rem 0 6.4rem;
 }
 
