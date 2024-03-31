@@ -166,7 +166,7 @@ h3 {
 }
 
 .contact-title h3 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .icon-text {
@@ -387,6 +387,9 @@ h3 {
   }
   .hero-features {
     gap: 0rem;
+  }
+  .about-section {
+    padding: 0 6.4rem 2.4rem 6.4rem !important;
   }
 }
 @media(max-width: 40em) {
