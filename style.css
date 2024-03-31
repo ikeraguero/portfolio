@@ -356,17 +356,21 @@ h3 {
   section:not(:first-child) {
     margin-top: 1.8rem;
   }
+  .container {
+    width: 80rem !important;
+  }
 }
 
 @media(max-width: 45em) {
   .img {
     width: 80% !important;
   }
+
 }
 
 @media(max-width: 43em) {
   html {
-    font-size: 40%;
+    font-size: 50%;
   }
   .nav-list {
     display: none;
@@ -387,21 +391,24 @@ h3 {
 }
 @media(max-width: 40em) {
   html {
-    font-size: 35%;
+    font-size: 45%;
+  }
+  .container{
+    width: 68rem !important;
+  }
+  .contact-icons {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .icon-container {
+    justify-content: center;
+  }
+  .logo {
+    display: none;
   }
 }
 @media(max-width: 34em) {
   .about-text p {
     padding: 0 4.8rem 0 4.8rem;
-  }
-}
-@media(max-width: 31em) {
-  html {
-    font-size: 20%;
-  }
-}
-@media(max-width: 26em) {
-  html {
-    font-size: 25%;
   }
 }
