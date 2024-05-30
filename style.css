@@ -285,6 +285,15 @@ h3 {
   margin-top: 8.4rem;
 }
 
+.section {
+  transition: transform 1s, opacity 1s
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem)
+}
+
 @media (max-width: 71em) {
   html {
     font-size: 55%;
